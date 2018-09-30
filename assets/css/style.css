@@ -1,0 +1,55 @@
+
+body {
+    background-color:#000000;
+}
+h1 {
+    font-size:60px;
+    color:#00ffbf;
+    text-shadow: 2px 2px 4px black, 0 0 50px rgb(222, 255, 192), 0 0 15px rgb(0, 139, 42);
+    font-style:italic;
+}
+
+.GIFtitle {
+    font-size:80px;
+    color: white;
+    text-shadow: 2px 2px 4px black, 0 0 50px pink, 0 0 15px darkred;
+    font-style:italic;
+   
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Safari 3-8 */
+    transform: rotate(-20deg);
+    position: relative;
+    bottom: 70px;
+    left: 150px;
+}
+.border-dashed {
+    border-style:dashed;
+    border-width:2px;
+    padding:25;
+    margin:0;
+    width:100%
+    }
+p{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    font-style: oblique;
+    color:#ffffff;
+}
+.title{
+    width:100%
+}
+
+
+@media screen and (max-width:760px){
+    .title{
+        width:75%;
+        padding: 40px;
+    }
+    div.h80s{
+        width:85%;
+        padding: 40px;
+    }
+    .container{
+        width:90%;
+    }
+}
